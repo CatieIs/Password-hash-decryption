@@ -12,7 +12,7 @@ def password_cracker(hash_to_crack, wordlist_file):
 
 # Example usage
 hash_to_crack = "EnterHashHere"  # Use the same hashing algorithm as whatever you set the hashlib. to in line 9 (by default it's sha256)
-wordlist_file = "rockyour.txt"  # Path to your wordlist file containing potential passwords
+wordlist_file = "rockyou.txt"  # Path to your wordlist file containing potential passwords
 cracked_password = password_cracker(hash_to_crack, wordlist_file)
 if cracked_password:
     print(f"Password cracked: {cracked_password}")
