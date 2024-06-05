@@ -12,5 +12,6 @@ Sha1/Sha256 and md5 are supported at the moment
 Update 1.0.1
 
 - Added a percntage counter to calculate and give the user an idea of how far into the wordlist the program has gone into.
+- Added a password hasher interface to then assist with getting a hash for a given text.
 
 PLEASE NOTE:Frequent updates will occur
