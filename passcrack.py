@@ -1,4 +1,3 @@
-#To test go to https://workat.tech/developer-tools/sha256-hash-generator
 import hashlib
 import sys
 
